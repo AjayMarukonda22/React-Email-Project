@@ -38,7 +38,7 @@ const Emailbody = ({email, handleIsFavorite}) => {
   });
 
   return (
-    <article className="border border-[#CFD2DC] mr- p-6 rounded-lg shadow-md h-[40%] w-full bg-white flex gap-x-8 mt-6">
+    <article className="border border-[#CFD2DC] mr-4 p-6 rounded-lg shadow-md h-[40%] w-full bg-white flex gap-x-8 mt-6">
         <div className="logo h-10 w-10  p-4 rounded-full flex justify-center items-center bg-[#E54065] font-bold text-2xl font-sans text-white">
         {email.from.name.charAt(0).toUpperCase()}
         </div>
