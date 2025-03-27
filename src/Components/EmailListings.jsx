@@ -121,12 +121,12 @@ const EmailListings = () => {
   
                   {/* Loading Spinner */}
                   {isLoading && emailList.length === 0 ? (
-                      <div className="flex justify-center items-center h-[80vh]">
+                      <div className="flex justify-center items-center h-[85vh]">
                           <div className="w-12 h-12 border-4 border-gray-300 border-t-[#E54065] rounded-full animate-spin mt-8"></div>
                       </div>
                   ) : (
                       /* Email List & Body */
-                      <section className='flex gap-x-4 h-[80vh]'>
+                      <section className='flex gap-x-4 h-[85vh]'>
                           <ul className={`${emailListingWidth} overflow-y-auto h-full pr-2`}>
                               {emailList}
                           </ul>
